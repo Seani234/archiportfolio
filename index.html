@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean's Portfolio - A Journey into Architecture through his Lens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services </a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-regular fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hello! I am Sean Lenard, an architecture student in Mapua University.</p>
+            <h1>I graduated BS Architecture <span>2025,</span><br>and gained OJT and internship from ASYA Design.</h1>
+        </div>
+    </div>
+</div>
+<!-- --------- about ----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>What made me pursue architecture was my love for buildings, particularly renovation shows and buildings. At that time, I was so amazed with the beauty of architecture. I wondered how fast architects think when they need to build clients houses or even bigger buildings. It always fascinated me, and I was so curious on what they learn as part of their professional life. Nowadays, I see that an architect has the power to build structures that impact human life, with regards to various concepts synthesizing and boiling down to what we see everywhere, from schools, hospitals, to even our homes.</p>  
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Design (Architectural Design 1-11)</span><br>Mastery of emerging design needs through careful space research, site analysis, and other factors</li>
+                        <li><span>CAD (Computer-Aided Drafting)</span><br>Mastery of essential softwares to seamless delivery of drawings and final plans</li>
+                        <li><span>BIM (Building Information Modelling)</span><br>Mastery of integrating lessons and applying skills in various subjects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>1st Year</span><br>Able to learn concepts regarding manual rendering, dimensioning, line weights</li>
+                        <li><span>2nd Year</span><br>Able to gather and synthesize learnings for exit exams, as part of preparation</li>
+                        <li><span>3rd Year</span><br>Able to apply design skills from various subjects, alongside CAD and BIM plates</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2023</span><br>Mapua University, Intramuros</li>
+                        <li><span>2009-2019</span><br>Pace Academy, Quezon City</li>
+                        <li><span>2006-2008</span><br>Apples and Oranges, Caloocan City</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------- services ----------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-object-group"></i>
+            <h2>Architectural Interiors</h2>
+            <p>This architectural service deals with furniture, lighting, user privacy, and circulation for indoor rooms.</p>
+           </div> 
+           <div>
+            <i class="fa-solid fa-house"></i>
+            <h2>House Design and Build</h2>
+            <p>This architectural service deals with the design of residential homes and spaces, from rowhouses, townhouses, to single-detached/attached homes.</p>
+           </div> 
+           <div>
+            <i class="fa-solid fa-waveform"></i>
+            <h2>Architectural Acoustic Design</h2>
+            <p>This architectural service deals with the sound insulation and reverberance for appropriate functions of a space and the comfort of prospective users.</p>
+           </div> 
+        </div>
+    </div>
+</div>
+<!-- ---------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects in Architecture School</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/cafe.jpg">
+                <div class="layer">
+                    <h3>Intramuros Cafe</h3>
+                    <p>This Recoletos "kainan" holds a special heart for the Intramuros district of Manila. Combined with modern interiors, it is surely a warm blend with vernacular materials highlighting indoor dining while not compromising outdoor dining.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/office-residence.jpg">
+                <div class="layer">
+                    <h3>Architect's Office-Residence</h3>
+                    <p>This Tagaytay structure is sure to captivate everyone with vibrant interiors, large windows, and lush greens, all while making it a home for a family of four and the office for the architect (father).</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/coffee shop.png">
+                <div class="layer">
+                    <h3>Indoor Coffee Shop</h3>
+                    <p>This coffee shop in BGC is a vacant spot in a commercial building, ready for build and interior design that should cater to the community.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/dream house.png">
+                <div class="layer">
+                    <h3>Architect's Dream House</h3>
+                    <p>The student will be in-charge of determining the best shape, form, and overall circulation of the house, all while ensuring the principles and elements of design are followed and showcased.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/_AR144-1S_PLATE 200_ANG.png">
+                <div class="layer">
+                    <h3>Adaptive Reuse</h3>
+                    <p>Innovating an old building, known as the Nakpil House in Quiapo, is then converted into a preschool for kids in the area.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> 
+            </div>
+            <div class="work">
+                <img src="images/AR144-1S_PLATE 100_ANG.png">
+                <div class="layer">
+                    <h3>Retreat Center</h3>
+                    <p>Vernacular architecture is the word, by blending in local materials and colors to exude the Philippine look it can provide to people.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/archicad.png">
+                <div class="layer">
+                    <h3>Two-Storey House</h3>
+                    <p>This plate done in ArchiCAD showcases the skill of the student in rendering a two-floor house, complete with 2 bedrooms and a 1-car carport.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bim 2.png">
+                <div class="layer">
+                    <h3>One-Storey House</h3>
+                    <p>This plate executed in Revit, the house itself depending on the student's preferences, and must render it successfully in the software using the given commands and techinques to make a house.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> seandesignsphilippines@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 02(8)345-6789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/seandranel2002/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/seanmarxh/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/portfolio.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+                <form>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">“Architecture should speak of its time and place, but yearn for timelessness.” - Frank Gehry </span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2023.</p>
+    </div>
+
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+    
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbxlKDw0g4U2tZxFyLvDCpJb4QdLVbl3V_SwBWHUmpISKYnYqEP8_Z2Au16df_Rlpr05jw/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
+</div>
+</body>
+</html>
